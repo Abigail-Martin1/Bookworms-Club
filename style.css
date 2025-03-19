@@ -14,21 +14,17 @@ body {
    padding: 20px;
  }
  
- h1 {
+ h1 h2{
     color: rgb(21, 133, 171);
     font-size: 25px;
     text-align: center;
   }
  
- h2 {
-    color: rgb(21, 133, 171);
-    font-size: 25px;
-    text-align:center;
- }
  img {
     padding: 10px;
     margin: 10px;
     border: 3px solid lightgray;
+    width: 100vw;
  }
  .center {
     display:block;
@@ -47,9 +43,58 @@ body {
     padding:14px;
     font-size:17px;
  }
+ .topnav img {
+      float: left; /* Moves image to the left */
+      width: 100px;  
+      height:auto;
+ }
  .header {
     background-color: rgb(21, 133, 171);
     text-align: center;
     padding:20px;
+ }
+ .footer img {
+   height:50px;
+   width:50px;
+ }
+ .container {
+   display: flex; /*Makes container a flexbox*/
+   justify-content: space-between; /*Makes the columns spaced evenly*/
+   gap:20px; /*Makes spacing between columns*/
+ }
+ .column {
+   flex:1; /*all columns are set to take up equal amounts of space*/
+   text-align:center;/*Text is centered within column*/
+   border: 1px solid gray; /*Creates border around each column*/
+   background-color: #f0f0f0; /*Creates colored background for each column*/
+ }
+ .column img {
+   max-width:300px; /*Sets the maximum width for images*/
+   height:auto; /*Maintains the height to fit accordingly*/
+ }
+ .column p{
+   background-color:#f0f0f0;
+ }
+ .about{
+   background-color: #f0f0f0;
+   border:dashed 1px lightgray;
+ }
+ .about p{
+   background-color: #f0f0f0;
+ }
+ .grid{
+   display:grid;
+   grid-template-columns: repeat(3,1fr); /*3columns*/
+   grid-template-rows: repeat(2,auto); /*2 rows*/
+   gap:20px; /*Creates spacing between boxes*/
+ }
+ .box {
+   background-color: #f0f0f0; /*Color of boxes*/
+   text-align: center; /*Centers text inside boxes*/
+   font-size: 18px; /*Font size*/
+ }
+ .box img {
+   width: 300px; /*images width*/
+   height: 300px;; /*Fits images height*/
  }
  
