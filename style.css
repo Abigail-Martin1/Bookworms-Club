@@ -24,7 +24,7 @@ body {
     padding: 10px;/*Adds padding*/
     margin: 10px; /*Sets margin*/
     border: 3px solid lightgray; /*Adds solid border w/ color*/
-    width: 100vw; /*edits width for image*/
+    width: 100px; /*edits width for image*/
  }
 .div img{
    max-width: 300px; /*images width*/
