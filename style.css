@@ -99,6 +99,6 @@ body {
  }
  .box img {
    max-width: 300px; /*images width*/
-   height: auto; /*Fits images height*/
+   height: 100px; /*Fits images height*/
  }
  
