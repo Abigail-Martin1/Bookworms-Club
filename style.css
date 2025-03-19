@@ -1,61 +1,61 @@
 
 
 * {
-    background-color: white;
-    font-size: 20px;
-    font-family: Arial, sans-serif;
-    color:black;
-    margin: 20px;
-    text-align: center;
+    background-color: white; /*Makes background white*/
+    font-size: 20px; /*Makes font size */
+    font-family: Arial, sans-serif; /*Chooses fonts to use */
+    color:black; /*Color for the text*/
+    margin: 20px; /*Adds margins */
+    text-align: center; /*Aligns text */
 }
 body {
-    color: white;
-   margin: 13px;
-   padding: 20px;
+    color: white;/*Color is white */
+   margin: 13px; /*Adds margin*/
+   padding: 20px; /*Adds pagging to body*/
  }
  
  h1 h2{
-    color: rgb(21, 133, 171);
-    font-size: 25px;
-    text-align: center;
+    color: rgb(21, 133, 171); /*Makes headings this color*/
+    font-size: 25px; /*Chooses the font size*/
+    text-align: center; /*Aligns text*/
   }
  
  img {
-    padding: 10px;
-    margin: 10px;
-    border: 3px solid lightgray;
-    width: 100vw;
+    padding: 10px;/*Adds padding*/
+    margin: 10px; /*Sets margin*/
+    border: 3px solid lightgray; /*Adds solid border w/ color*/
+    width: 100vw; /*edits width for image*/
  }
  .center {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%
+    display:block; /*Changes default element behavior*/
+    margin-left: auto; /*Auto adjusts margins on left*/
+    margin-right: auto; /*Adjusts margins on right*/
+    width: 50% /*Changes width*/
  }
  .topnav {
-    background-color: rgb(21, 133, 171);
-    overflow: hidden;
+    background-color: rgb(21, 133, 171); /*Makes the nav section this color*/
+    overflow: hidden; /*Hides overflowing content*/
  }
  .topnav a{
-    float:right;
-    color:rgb(21, 133, 171);
-    text-align:center;
-    padding:14px;
-    font-size:17px;
+    float:right; /*The buttons will sit in the right side*/
+    color:rgb(21, 133, 171); /*Sets colors of nav*/
+    text-align:center; /*Aligns text center*/
+    padding:14px; /*Adds padding*/
+    font-size:17px; /*Sets font size*/
  }
  .topnav img {
       float: left; /* Moves image to the left */
-      width: 100px;  
-      height:auto;
+      width: 100px;  /*Sets width*/
+      height:auto; /*Auto adjust height*/
  }
  .header {
-    background-color: rgb(21, 133, 171);
-    text-align: center;
-    padding:20px;
+    background-color: rgb(21, 133, 171); /*Sets color*/
+    text-align: center; /*Text align center*/
+    padding:20px; /*Adds padding*/
  }
  .footer img {
-   height:50px;
-   width:50px;
+   height:50px; /*Sets footer img height*/
+   width:50px; /*Sets footer img width*/
  }
  .container {
    display: flex; /*Makes container a flexbox*/
@@ -73,14 +73,14 @@ body {
    height:auto; /*Maintains the height to fit accordingly*/
  }
  .column p{
-   background-color:#f0f0f0;
+   background-color:#f0f0f0; /*Sets columns colors */
  }
  .about{
-   background-color: #f0f0f0;
-   border:dashed 1px lightgray;
+   background-color: #f0f0f0; /*Sets the sections color*/
+   border:dashed 1px lightgray; /*Adds dashed lightgray border*/
  }
  .about p{
-   background-color: #f0f0f0;
+   background-color: #f0f0f0; /*Sets background color*/
  }
  .grid{
    display:grid;
