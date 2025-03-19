@@ -97,6 +97,10 @@ body {
    text-align: center; /*Centers text inside boxes*/
    font-size: 18px; /*Font size*/
  }
+.box img {
+    max-width:300px; /*Sets the maximum width for images*/
+   height:auto; /*Maintains the height to fit accordingly*/
+}
  .Writing img {
    width: 100px; /*images width*/
    height: 100px; /*Fits images height*/
