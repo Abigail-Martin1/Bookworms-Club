@@ -99,7 +99,7 @@ body {
  }
 .box img {
     width:300px; /*Sets the width for images*/
-   height:auto; /*Maintains the height to fit accordingly*/
+   height:400px; /*Maintains the height*/
 }
  .Writing img {
    width: 100px; /*images width*/
