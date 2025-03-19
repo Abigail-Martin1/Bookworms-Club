@@ -26,6 +26,10 @@ body {
     border: 3px solid lightgray; /*Adds solid border w/ color*/
     width: 100vw; /*edits width for image*/
  }
+.div img{
+   max-width: 300px; /*images width*/
+   height: auto; /*Fits images height*/
+}
  .center {
     display:block; /*Changes default element behavior*/
     margin-left: auto; /*Auto adjusts margins on left*/
