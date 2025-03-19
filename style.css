@@ -94,7 +94,7 @@ body {
    font-size: 18px; /*Font size*/
  }
  .box img {
-   width: 300px; /*images width*/
-   height: 300px;; /*Fits images height*/
+   max-width: 300px; /*images width*/
+   height: auto; /*Fits images height*/
  }
  
