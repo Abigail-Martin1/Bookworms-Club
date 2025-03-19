@@ -98,7 +98,7 @@ body {
    font-size: 18px; /*Font size*/
  }
 .box img {
-    max-width:300px; /*Sets the maximum width for images*/
+    width:300px; /*Sets the width for images*/
    height:auto; /*Maintains the height to fit accordingly*/
 }
  .Writing img {
