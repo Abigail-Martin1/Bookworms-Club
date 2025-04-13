@@ -105,4 +105,30 @@ body {
    width: 100px; /*images width*/
    height: 100px; /*Fits images height*/
  }
+#quote-section {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+blockquote#quote {
+  border-left: 6px solid rgb(21, 133, 171);
+  padding-left: 20px;
+  font-style: italic;
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+cite#author {
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+  font-size: 1rem;
+  color: #666;
+  font-style: normal;
+}
  
