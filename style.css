@@ -42,7 +42,6 @@ body {
  }
  .topnav a{
     float:right; /*The buttons will sit in the right side*/
-    color:rgb(21, 133, 171); /*Sets colors of nav*/
     text-align:center; /*Aligns text center*/
     padding:14px; /*Adds padding*/
     font-size:17px; /*Sets font size*/
